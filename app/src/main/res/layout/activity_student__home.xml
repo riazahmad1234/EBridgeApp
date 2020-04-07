@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/holo_blue_dark">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ic_home_icon"
+                        android:layout_gravity="center"
+                        android:background="@drawable/circal"
+                        android:padding="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="30sp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="20dp"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:background="@color/colorPrimary">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView1"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView1"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile1"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView2"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView2"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile2"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="20dp"
+                            android:background="@color/colorPrimary">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView32"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:src="@drawable/ic_home_icon" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView32"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile32"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView42"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView42"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile42"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="20dp"
+                            android:background="@color/colorPrimary">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView33"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView33"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile44"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            app:cardCornerRadius="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView43"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView43"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile43"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="20dp"
+                            android:background="@color/colorPrimary">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView344"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView344"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile3"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@android:color/holo_blue_bright"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent">
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:padding="20dp"
+                                    android:background="@drawable/circal"
+                                    android:id="@+id/imageView45"
+                                    android:src="@drawable/ic_home_icon"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Profile"
+                                    android:textColor="@android:color/background_dark"
+                                    android:textSize="20dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/imageView45"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnprofile4"
+                                    android:background="@android:color/transparent"/>
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

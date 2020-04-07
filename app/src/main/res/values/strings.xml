@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">E Bridge App</string>
+    <string name="login">LogIn</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="fullName">Full Name</string>
+    <string name="userName">User Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="welcome">Welcome</string>
+    <string name="if_email_empty">Please Enter Email</string>
+    <string name="if_fullName_empty">Please Enter FullName</string>
+    <string name="if_password_empty">Please Enter Password</string>
+    <string name="if_username_empty">Please Enter UserName</string>
+    <string name="registration_complete">Register Successfully</string>
+    <string name="registration_not_complete">Please Register again</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? LogIn</string>
+    <string name="login_signup_hint">Don\'t have an account? Register</string>
+
+
+</resources>

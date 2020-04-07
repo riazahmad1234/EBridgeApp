@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196134166084",
+    "firebase_url": "https://e-bridge-app-87e2c.firebaseio.com",
+    "project_id": "e-bridge-app-87e2c",
+    "storage_bucket": "e-bridge-app-87e2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196134166084:android:5b7fbc61b64bd50a442611",
+        "android_client_info": {
+          "package_name": "com.example.ebridgeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196134166084-cdkc1g92ueje9avqa25m1khkljoukjbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ebridgeapp",
+            "certificate_hash": "007e0a6941752793ee143e8709696ce2cc2e2932"
+          }
+        },
+        {
+          "client_id": "196134166084-9d7aq3lt59bbnqm9ug9eu58h59a4l22b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5NQRXWAxkfhgerW3xqt89DiyRym9uiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196134166084-9d7aq3lt59bbnqm9ug9eu58h59a4l22b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
